@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Gun.h
+string
+-
+iostream
+-
+
+../include/Solider.h
+string
+-
+Gun.h
+../include/Gun.h
+
+/home/lala/1019_ws/wh_study/study_cpp/demo01_ws/7/main.cpp
+Gun.h
+/home/lala/1019_ws/wh_study/study_cpp/demo01_ws/7/Gun.h
+Solider.h
+/home/lala/1019_ws/wh_study/study_cpp/demo01_ws/7/Solider.h
+
